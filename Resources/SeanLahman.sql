@@ -148,4 +148,3 @@ REFERENCES "people" ("playerID");
 
 ALTER TABLE "batting" ADD CONSTRAINT "fk_batting_playerID" FOREIGN KEY("playerID")
 REFERENCES "people" ("playerID");
-
